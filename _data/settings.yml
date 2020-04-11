@@ -1,0 +1,73 @@
+#-------------------------------
+# General Site Settings
+
+menu:
+- {name: 'Projects', url: ''}
+
+- {name: 'About', url: 'pages/about.html'}
+
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Jaskaran Singh Bhatia Graphic Designer from Birla Institue of Technology and Science, Pilani (BITS Pilani) Goa '
+  rel-author: 'Jaskaran Singh Bhatia'
+  rel-publisher: 'Jaskaran Singh Bhatia'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-analytics-ua: ''
+
+#-------------------------------
+# Disqus Section
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'thathungrymind'
+
+#-------------------------------
+# About Section
+
+about: >
+  #### JusKid.in by Jaskaran
+
+   Hey there! My name is Jaskaran and I'm a **designer**, **photographer**, and **video creator**. I've been involved in _Graphic     Design_ for the last 3 years now and I'm currently exploring the world of _Interaction Design_.
+    I'm currently majoring in Computer Science at BITS Goa, and I'm looking for freelance opportunities.
+    If you like [my work](/), do get in touch on [Instagram](https://instagram.com/jaskaransbhatia) or [through my mail](mailto:jaskaranbhatia1999@gmail.com)!
+  
+
+contact: >
+  # Contact
+
+  You may contact me [through my email](mailto:l.nguyen.paul@gmail.com) or [tweet at me](https://twitter.com/intent/tweet?text=%40paululele) if you have any questions or would like to bring up any issues.
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: 'Illustrations', folder: 'illustrations', file: 'projects/illustrations.html'}
+- {name: 'Posters', folder: 'posters', file: 'projects/posters.html'}
+- {name: 'Photo Manipulation', folder: 'photomanipulation', file: 'projects/photoman.html'}
+- {name: 'Tee-Shirts', folder: 'tees', file: 'projects/tees.html'}
+- {name: 'Logos and Symbols', folder: 'logos', file: 'projects/logos.html'}
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'instagram', link: 'https://instagram.com/jaskaransbhatia'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/jaskaran-singh-6a674b151/'}
+- {icon: 'envelope', link: 'mailto:jaskaranbhatia1999@gmail.com'}
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
